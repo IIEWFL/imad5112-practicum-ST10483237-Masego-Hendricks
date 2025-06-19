@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dialog"
+    android:orientation="vertical"
+    android:background="@drawable/amaearphoneb">
+
+
+    <EditText
+        android:id="@+id/songNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Song Name"
+        android:minHeight="50dp"
+        android:inputType="text"
+        android:layout_marginTop="80dp" />
+
+    <EditText
+        android:id="@+id/artistEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artist"
+        android:minHeight="50dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ratingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating(1-5)"
+        android:minHeight="50dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/commentsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comments (Optional)"
+        android:minHeight="50dp"
+        android:inputType="textMultiLine"/>
+
+
+
+</LinearLayout>
